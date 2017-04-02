@@ -1,0 +1,10 @@
+-content_for :dashboard do
+  %body{class: "#{params[:controller]} #{params[:action]}"}
+    .body-wapper
+      .navigation-elements
+        = render partial: "layouts/navigation/top_nav"
+      .body-elements#bodyWrapper
+        = yield
+        .push
+
+=render template: 'layouts/application'

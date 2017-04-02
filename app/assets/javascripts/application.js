@@ -13,4 +13,16 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require underscore
+//= require underscore.string
+//= require materialize-sprockets
+//= require plotly
+//= require react
+//= require react_ujs
+// React Components
+//= require_tree ./components
+//
+// React Global Helpers
+//= require classnames
+//
 //= require_tree .
